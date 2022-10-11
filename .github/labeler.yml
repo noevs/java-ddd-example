@@ -1,3 +1,13 @@
 # Add/remove 'critical' label if issue contains the words 'urgent' or 'critical'
-critical:
-  - '(critical|urgent)'
+breaking-change:
+  - '(breaking change|Breaking change)'
+feature:
+  - '(feature|Feature)'
+enhancement:
+  - '(enhancement|Enhancement)'
+bug:
+  - '(fix|Fix|bug|Bug)'
+dependencies:
+  - '(Bump|bump|dependencies|Dependencies)'
+documentation:
+  - '(Doc|Docs|Documentation|doc|docs|documentation)'
